@@ -1,0 +1,212 @@
+[
+  {
+    "Name": "Aman’s Apartment",
+    "City": "Mumbai",
+    "Area": "Andheri",
+    "Rent": 35106,
+    "Rating": 4.52,
+    "Bedrooms": "1",
+    "latitude": 19.120905,
+    "longitude": 72.841396
+  },
+  {
+    "Name": "Diva’s Apartment",
+    "City": "Mumbai",
+    "Area": "Bandra",
+    "Rent": 41390,
+    "Rating": 4.15,
+    "Bedrooms": "1",
+    "latitude": 19.057282,
+    "longitude": 72.830379
+  },
+  {
+    "Name": "Shiv’s Studio",
+    "City": "Mumbai",
+    "Area": "Vile Parle",
+    "Rent": 52623,
+    "Rating": 4.72,
+    "Bedrooms": "2",
+    "latitude": 19.096015,
+    "longitude": 72.846554
+  },
+  {
+    "Name": "Aziz’s Apartment",
+    "City": "Mumbai",
+    "Area": "Andheri",
+    "Rent": 35500,
+    "Rating": 4.71,
+    "Bedrooms": "3",
+    "latitude": 19.108091,
+    "longitude": 72.850831
+  },
+  {
+    "Name": "George’s Villa",
+    "City": "Mumbai",
+    "Area": "Bandra",
+    "Rent": 54629,
+    "Rating": 4.93,
+    "Bedrooms": "2",
+    "latitude": 19.058945,
+    "longitude": 72.825919
+  },
+  {
+    "Name": "Meena’s Apartment",
+    "City": "Mumbai",
+    "Area": "Khar",
+    "Rent": 50376,
+    "Rating": 4.16,
+    "Bedrooms": "1",
+    "latitude": 19.070424,
+    "longitude": 72.83484
+  },
+  {
+    "Name": "Vinita’s Penthouse",
+    "City": "Mumbai",
+    "Area": "Santacruz",
+    "Rent": 37800,
+    "Rating": 4.13,
+    "Bedrooms": "3",
+    "latitude": 19.081172,
+    "longitude": 72.835998
+  },
+  {
+    "Name": "Shyam’s House",
+    "City": "Mumbai",
+    "Area": "Andheri",
+    "Rent": 26075,
+    "Rating": 4.96,
+    "Bedrooms": "2",
+    "latitude": 19.119202,
+    "longitude": 72.8595
+  },
+  {
+    "Name": "Miriam’s Apartment",
+    "City": "Mumbai",
+    "Area": "Andheri",
+    "Rent": 34381,
+    "Rating": 3.42,
+    "Bedrooms": "1",
+    "latitude": 19.125608,
+    "longitude": 72.843976
+  },
+  {
+    "Name": "Shen’s Flat",
+    "City": "Mumbai",
+    "Area": "Bandra",
+    "Rent": 26386,
+    "Rating": 3.16,
+    "Bedrooms": "2",
+    "latitude": 19.058215,
+    "longitude": 72.832867
+  },
+  {
+    "Name": "Anita’s House",
+    "City": "Mumbai",
+    "Area": "Santacruz",
+    "Rent": 41427,
+    "Rating": 3.92,
+    "Bedrooms": "3",
+    "latitude": 19.079266,
+    "longitude": 72.839558
+  },
+  {
+    "Name": "Subhash’s Apartment",
+    "City": "Mumbai",
+    "Area": "Khar",
+    "Rent": 58236,
+    "Rating": 4.48,
+    "Bedrooms": "2",
+    "latitude": 19.070302,
+    "longitude": 72.832609
+  },
+  {
+    "Name": "Dhruv’s Condo",
+    "City": "Mumbai",
+    "Area": "Santacruz",
+    "Rent": 50941,
+    "Rating": 3.09,
+    "Bedrooms": "1",
+    "latitude": 19.074886,
+    "longitude": 72.831624
+  },
+  {
+    "Name": "Mithila’s Villa",
+    "City": "Mumbai",
+    "Area": "Vile Parle",
+    "Rent": 26457,
+    "Rating": 3.81,
+    "Bedrooms": "2",
+    "latitude": 19.092528,
+    "longitude": 72.839949
+  },
+  {
+    "Name": "Sequira’s Rowhouse",
+    "City": "Mumbai",
+    "Area": "Khar",
+    "Rent": 43843,
+    "Rating": 4.8,
+    "Bedrooms": "3",
+    "latitude": 19.070059,
+    "longitude": 72.832738
+  },
+  {
+    "Name": "Minali’s Apartment",
+    "City": "Mumbai",
+    "Area": "Vile Parle",
+    "Rent": 40117,
+    "Rating": 3.49,
+    "Bedrooms": "2",
+    "latitude": 19.09488,
+    "longitude": 72.847454
+  },
+  {
+    "Name": "Soneri’s House",
+    "City": "Mumbai",
+    "Area": "Khar",
+    "Rent": 29020,
+    "Rating": 4.58,
+    "Bedrooms": "2",
+    "latitude": 19.069369,
+    "longitude": 72.838099
+  },
+  {
+    "Name": "Ritika’s Apartment",
+    "City": "Mumbai",
+    "Area": "Andheri",
+    "Rent": 60647,
+    "Rating": 4.55,
+    "Bedrooms": "1",
+    "latitude": 19.125203,
+    "longitude": 72.828023
+  },
+  {
+    "Name": "Shailesh’s House",
+    "City": "Mumbai",
+    "Area": "Vile Parle",
+    "Rent": 31776,
+    "Rating": 4.8,
+    "Bedrooms": "2",
+    "latitude": 19.10072,
+    "longitude": 72.851056
+  },
+  {
+    "Name": "Dawa’s Villa",
+    "City": "Mumbai",
+    "Area": "Bandra",
+    "Rent": 46445,
+    "Rating": 4.43,
+    "Bedrooms": "3",
+    "latitude": 19.052496,
+    "longitude": 72.839428
+  },
+  {
+    "Name": "Rhea’s Apartment",
+    "City": "Mumbai",
+    "Area": "Santacruz",
+    "Rent": 44025,
+    "Rating": 3.94,
+    "Bedrooms": "1",
+    "latitude": 19.079225,
+    "longitude": 72.842774
+  }
+]
