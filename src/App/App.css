@@ -1,3 +1,7 @@
+.customjumbotron {
+  background-color: white;
+}
+
 .restcontainer {
     display: flex;
     flex-wrap: wrap;
@@ -47,7 +51,7 @@
 
 .restarea {
     margin: 2px;
-    border: 1px solid grey;
+    border: 1px solid black;
 }
 
 .restfilter {
