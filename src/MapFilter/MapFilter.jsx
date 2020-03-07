@@ -24,7 +24,7 @@ const MapWithAMarker = compose(withScriptjs, withGoogleMap)(props => {
             {props.selectedMarker === marker &&
               <InfoWindow>
                 <div>
-                <div className="restinfo">
+                <div className="mapinfo">
                   <i
                     className="fas fa-map-marker"
                     style={{ color: "orangered", fontSize: "12px" }}

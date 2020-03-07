@@ -45,6 +45,12 @@
     cursor: default;
 }
 
+.mapinfo {
+  padding: 10px;
+  cursor: default;
+  color:black;
+}
+
 .restcity {
     font-weight: bold;
     font-size: 12px;
