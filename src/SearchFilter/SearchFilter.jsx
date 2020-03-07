@@ -17,7 +17,7 @@ class SearchFilter extends Component {
   render() {
     return (
       <div>
-        <div className="restcontainer">
+        <div className="searchcontainer">
           {this.props.itemsToDisplay.map(rest => {
             let areas = rest["Area"]
               .substring(0, rest["Area"].length)
@@ -68,7 +68,7 @@ class SearchFilter extends Component {
                 <div>
                   <Modal show={this.state.show} handleClose={this.hideModal} >
                       <div className="restname">
-                        <h1>Schedule Visit</h1>
+                        <h2>Schedule Visit</h2>
                         <DateTimePicker
                           onChange={this.onChange}
                           value={this.state.date}
@@ -78,7 +78,7 @@ class SearchFilter extends Component {
                     </Modal>
                 </div>
                 <div className="restbutton">
-                  <button type='button' onClick={this.showModal}>Schedule Visit</button>
+                  <button type='button' className="red" onClick={this.showModal}>Schedule Visit</button>
                 </div>
               </div>
             );
@@ -96,7 +96,7 @@ const Modal = ({ handleClose, show, children }) => {
     <div className={showHideClassName}>
       <section className='modal-main'>
         {children}
-        <button
+        <button className="red"
           onClick={handleClose}
         >
           Finalise Visit

@@ -39,7 +39,7 @@ class HomePage extends React.Component {
             </div>
             <div className="col-md-2">
                 <p>
-                <Link to="/login">Logout</Link>
+                <Link className="red" to="/login">Logout</Link>
             </p>
             </div>
             </div>

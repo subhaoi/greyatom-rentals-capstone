@@ -55,8 +55,8 @@ class App extends Component {
                 </div>
                 <div className="restfilter">
                   <div>
-                    Choose a area : &nbsp;
-                    <select id="restfilter" onChange={this.optionSelected}>
+                    Filter by area : &nbsp;
+                    <select className="custom-select" id="restfilter" onChange={this.optionSelected}>
                       <option value="any">Choose Any</option>
                       {this.state.areas.map(area => {
                         return <option value={area}>{area}</option>;
@@ -64,8 +64,8 @@ class App extends Component {
                     </select>
                   </div>
                   <div>
-                    Choose a bedrooms : &nbsp;
-                    <select id="restbedfilter" onChange={this.optionSelected}>
+                  Filter by bedrooms : &nbsp;
+                    <select className="custom-select"  id="restbedfilter" onChange={this.optionSelected}>
                       <option value="any">Choose Any</option>
                       {this.state.bedrooms.map(bedroom => {
                         return <option value={bedroom}>{bedroom}</option>;
@@ -74,7 +74,7 @@ class App extends Component {
                   </div>
                   <div>
                     Sort by : &nbsp;
-                    <select id="sortfilter" onChange={this.sortBy}>
+                    <select className="custom-select"  id="sortfilter" onChange={this.sortBy}>
                       <option value="rentdes">Rent: High to Low</option>
                       <option value="rentasc">Rent: Low to High</option>
                       <option value="ratingasc">Rating: Low to High</option>

@@ -1,5 +1,7 @@
 .customjumbotron {
-  background-color: white;
+  background-color: #669DBD;
+  color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 .restcontainer {
@@ -8,16 +10,24 @@
     justify-content: space-evenly;
 }
 
+.searchcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
 .rest {
     box-shadow: 0 0 5px grey;
     border-radius: 5px;
     margin: 10px;
-    width: 80%;
+    width: 40%;
 
     font-family: touse;
 
     transition-property: box-shadow;
     transition-duration: 0.25s;
+    background-color: #BD986B;
 }
 
 .rest:hover {
@@ -27,7 +37,6 @@
 .sepline {
     height: 1px;
     width: 100%;
-    background-color: rgb(230, 230, 230);
     margin-top: 5px;
 }
 
@@ -51,7 +60,6 @@
 
 .restarea {
     margin: 2px;
-    border: 1px solid black;
 }
 
 .restfilter {
@@ -66,17 +74,11 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
     padding: 10px;
     cursor: default;
 
     transition-property: background-color, color;
     transition-duration: 0.25s;
-}
-
-.reststats:hover {
-    background-color: cornflowerblue;
-    color: white;
 }
 
 .restbutton {
@@ -85,14 +87,15 @@
 
 .modal {
   position: fixed;
-  top: 25%;
+  top: 10%;
   left: 25%;
   width:50%;
-  height: 50%;
+  height: 75%;
   background: white;
   padding: 1%;
   border-style: solid;
   border-width: 2px;  
+  color:black;
 
 
   .modal-main {
@@ -127,7 +130,65 @@
 }
 
 .tab-list-active {
-  background-color: white;
+  background-color: red;
   border: solid #ccc;
   border-width: 1px 1px 0 1px;
+}
+
+.custom-select {
+  position: relative;
+  background-color: grey;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+button.red {
+  background: -webkit-linear-gradient(top, #DD4B39, #D14836); 
+  background: -moz-linear-gradient(top, #DD4B39, #D14836); 
+  background: -ms-linear-gradient(top, #DD4B39, #D14836); 
+  border: 1px solid #DD4B39;
+  color: white;
+  text-shadow: 0 1px 0 #C04131;
+}
+
+button.red:hover {
+   background: -webkit-linear-gradient(top, #DD4B39, #C53727);
+   background: -moz-linear-gradient(top, #DD4B39, #C53727);
+   background: -ms-linear-gradient(top, #DD4B39, #C53727);
+   border: 1px solid #AF301F;
+}
+
+button.red:active {
+   box-shadow: inset 0 1px 1px rgba(0,0,0,0.2);
+  background: -webkit-linear-gradient(top, #D74736, #AD2719);
+  background: -moz-linear-gradient(top, #D74736, #AD2719);
+  background: -ms-linear-gradient(top, #D74736, #AD2719);
+}
+
+
+button.blue {
+  color: white;
+  background: #4C8FFB;
+  border: 1px #3079ED solid;
+  box-shadow: inset 0 1px 0 #80B0FB;
+}
+
+button.blue:hover {
+  border: 1px #2F5BB7 solid;
+  box-shadow: 0 1px 1px #EAEAEA, inset 0 1px 0 #5A94F1;
+  background: #3F83F1;
+}
+
+button.blue:active {
+  box-shadow: inset 0 2px 5px #2370FE;   
+}
+
+a{
+  color:white;
+  padding:5px;
+  border:1px solid #ffcb04;
+  border-radius: 5px;
+  background-color: grey;
 }
