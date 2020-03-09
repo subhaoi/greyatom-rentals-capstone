@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import DateTimePicker from 'react-datetime-picker';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBed, faStar } from '@fortawesome/free-solid-svg-icons'
 
 class SearchFilter extends Component {
   state = { show: false, date: new Date() };
@@ -56,13 +58,15 @@ class SearchFilter extends Component {
                       style={{ fontSize: "15px" }}
                       className="far fa-comment-alt"
                     ></i>
-                    &nbsp;
                     {rest["Bedrooms"]} Bedroom
+                    &nbsp;
+                  <FontAwesomeIcon icon={faBed} />
                   </div>
                   <div>
                     <i style={{ fontSize: "15px" }} className="far fa-star"></i>
-                    &nbsp;
                     Rating : {rest["Rating"]}
+                    &nbsp;
+                  <FontAwesomeIcon icon={faStar} />
                   </div>
                 </div>
                 <div>

@@ -11,6 +11,9 @@
     "start": "webpack-dev-server --open"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.9",
     "bootstrap": "^4.4.1",
     "history": "^4.10.1",
     "react": "^16.12.0",

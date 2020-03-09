@@ -11,6 +11,7 @@ import { RegisterPage } from '../RegisterPage';
 import { SearchFilter } from '../SearchFilter';
 import { MapFilter } from '../MapFilter';
 import { Tabs } from '../Tabs';
+
 import data from "./data.json";
 import "./App.css";
 
