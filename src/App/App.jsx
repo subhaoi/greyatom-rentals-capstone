@@ -14,6 +14,7 @@ import { Tabs } from '../Tabs';
 
 import data from "./data.json";
 import "./App.css";
+import { EntryPage } from '../EntryPage';
 
 
 class App extends Component {
@@ -44,6 +45,7 @@ class App extends Component {
                         <Router history={history}>
                             <Switch>
                                 <PrivateRoute exact path="/" component={HomePage} />
+                                <Route path="/entry" component={EntryPage} />
                                 <Route path="/login" component={LoginPage} />
                                 <Route path="/register" component={RegisterPage} />
                                 <Redirect from="*" to="/" />
